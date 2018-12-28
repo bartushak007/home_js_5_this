@@ -236,9 +236,9 @@ user3.checkPassword();
   function switchTo(check) {
     do {
       if(check === 1){
-        slide = +prompt('Which one you want to remove?', 0);
+        slide = +prompt('Which one do you want to remove?', 0);
       }else if(check === 2){
-        slide = +prompt('Which place you want add slide?', 0);
+        slide = +prompt('Which place do you want to add a slide to?', 0);
       } else {
         slide = +prompt('Enter number of slide', 0);
       }
