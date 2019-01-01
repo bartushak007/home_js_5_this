@@ -91,12 +91,12 @@ var secondUser = {
   checkPassword: function() {
     var self = this;
     ask('Your password?', this.password, x, y);
-   function x() {
-    return self.loginOk()
-  }
-   function y() {
-    return self.loginFail()
-  }
+    function x() {
+      return self.loginOk()
+    }
+    function y() {
+      return self.loginFail()
+    }
   }
 };
 
